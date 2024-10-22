@@ -9,7 +9,7 @@ export default function Hero() {
             Discover the Underwater World
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Welcome to AquaReef - Your premier destination for all things aquarium in Mysuru, Karnataka.
+            Welcome to AquaReef - Your premier destination for all things aquarium in India.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div className="rounded-md shadow">
@@ -25,9 +25,9 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 right-0">
-        <img src="/underwater-scene.jpg" alt="Underwater scene with tropical fish and coral" className="w-full h-auto object-cover object-center" style={{ maxHeight: '400px' }} />
-      </div>
+      {/* <div className="absolute bottom-0 left-0 right-0">
+        <img src="" alt="Underwater scene with tropical fish and coral" className="w-full h-auto object-cover object-center" style={{ maxHeight: '400px' }} />
+      </div> */}
     </div>
   )
 }

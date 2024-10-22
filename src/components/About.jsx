@@ -25,7 +25,7 @@ const About = () => (
           </div>
         </div>
         <div className="mt-10 lg:mt-0">
-          <img className="rounded-lg shadow-xl" src="/aquarium-setup.jpg" alt="Beautiful aquarium setup" />
+          <img className="rounded-xl shadow-xl" src="https://wallpapercave.com/wp/wp9140838.jpg" alt="Beautiful aquarium setup" />
         </div>
       </div>
     </div>

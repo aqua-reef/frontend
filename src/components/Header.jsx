@@ -10,8 +10,8 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img src="/logo.png" alt="AquaReef Logo" className="h-10 w-auto mr-3" />
-              <span className="text-xl font-bold text-blue-600">AquaReef</span>
+              <img src="aquareef-logo.jpg" alt="AquaReef Logo" className="h-10 w-auto mr-3" />
+              {/* <span className="text-xl font-bold text-blue-600">AquaReef</span> */}
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">

@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 const FeaturedProducts = () => {
   const products = [
-    { id: 1, name: "Tropical Fish Set", price: "₹2,999", image: "/fish-set.jpg" },
-    { id: 2, name: "Aquarium Plant Bundle", price: "₹1,499", image: "/plant-bundle.jpg" },
-    { id: 3, name: "LED Aquarium Light", price: "₹3,499", image: "/led-light.jpg" },
-    { id: 4, name: "Filter System Pro", price: "₹4,999", image: "/filter-system.jpg" },
+    { id: 1, name: "Tropical Fish Set", price: "₹2,999", image: "https://seatechaquariums.com/wp-content/uploads/2019/07/Tropical-Fish-Defined-_-162088514-1-624x371.jpeg" },
+    { id: 2, name: "Aquarium Plant Bundle", price: "₹1,499", image: "https://cdn.mos.cms.futurecdn.net/WEWadqsMa3UUCqAXCmaYRN-1200-80.jpg" },
+    { id: 3, name: "LED Aquarium Light", price: "₹3,499", image: "https://rukminim2.flixcart.com/image/750/900/xif0q/aquarium-tools/d/y/g/super-slim-led-aquarium-light-plants-grow-lighting-clip-on-lamp-original-imagw4hzuvjm7krt.jpeg?q=20&crop=false" },
+    { id: 4, name: "Filter System Pro", price: "₹4,999", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wTcLfC_8lazlT1UBlTseWUgw2Ez8RrvDNw&s" },
   ]
 
   return (
@@ -28,7 +28,7 @@ const FeaturedProducts = () => {
                 <div>
                   <h3 className="text-sm text-gray-700">
                     <Link href={`/product/${product.id}`} className="absolute inset-0">
-                      {product.name}
+                      {/* {product.name} */}
                     </Link>
                   </h3>
                 </div>
