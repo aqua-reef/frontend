@@ -16,7 +16,7 @@ export default function Header() {
           </div>
           <div className="hidden md:flex items-center space-x-8">
             <Link href="/#home" className="text-gray-800 hover:text-blue-600 transition duration-300">Home</Link>
-            <Link href="/#shop" className="text-gray-800 hover:text-blue-600 transition duration-300">Shop</Link>
+            <Link href="/shop" className="text-gray-800 hover:text-blue-600 transition duration-300">Shop</Link>
             <Link href="/#gallery" className="text-gray-800 hover:text-blue-600 transition duration-300">Gallery</Link>
             <Link href="/#testimonials" className="text-gray-800 hover:text-blue-600 transition duration-300">Testimonials</Link>
             <Link href="/#contact" className="text-gray-800 hover:text-blue-600 transition duration-300">Contact</Link>
@@ -32,7 +32,7 @@ export default function Header() {
         {isOpen && (
           <div className="md:hidden mt-2">
             <Link href="/#home" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</Link>
-            <Link href="/#shop" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Shop</Link>
+            <Link href="/shop" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Shop</Link>
             <Link href="/#gallery" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Gallery</Link>
             <Link href="/#testimonials" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Testimonials</Link>
             <Link href="/#contact" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</Link>
