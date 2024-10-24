@@ -1,12 +1,12 @@
 import Layout from '../components/Layout'
-import Hero from '../components/Hero'
-import FeaturedProducts from '../components/FeaturedProducts'
-import Features from '../components/Features'
-import About from '../components/About'
-import CTA from '../components/CTA'
-import Testimonials from '../components/Testimonials'
-import FAQ from '../components/FAQ'
-import ContactForm from '../components/ContactForm'
+import Hero from '../components/home/Hero'
+import FeaturedProducts from '../components/home/FeaturedProducts'
+import Features from '../components/home/Features'
+import About from '../components/home/About'
+import CTA from '../components/home/CTA'
+import Testimonials from '../components/home/Testimonials'
+import FAQ from '../components/home/FAQ'
+import ContactForm from '../components/home/ContactForm'
 
 export default function Home() {
   return (
