@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -9,16 +9,23 @@ export default function Hero() {
             Discover the Underwater World
           </h1>
           <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-            Welcome to Aqua Reef - Your premier destination for all things aquarium in India.
+            Welcome to Aqua Reef - Your premier destination for all things
+            aquarium in India.
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div className="rounded-md shadow">
-              <Link href="/shop" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+              <Link
+                href="/shop"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10"
+              >
                 Shop Now
               </Link>
             </div>
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-              <Link href="/#contact" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10">
+              <Link
+                href="/#contact"
+                className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10"
+              >
                 Contact Us
               </Link>
             </div>
@@ -29,5 +36,5 @@ export default function Hero() {
         <img src="" alt="Underwater scene with tropical fish and coral" className="w-full h-auto object-cover object-center" style={{ maxHeight: '400px' }} />
       </div> */}
     </div>
-  )
+  );
 }

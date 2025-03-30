@@ -1,13 +1,13 @@
 {
-    "compilerOptions": {
-      "baseUrl": "./",
-      "paths": {
-        "@/*": ["./src/*"],
-        "@components/*": ["src/components/*"],
-        "@styles/*": ["src/styles/*"]
-      },
-      "jsx": "react"
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@components/*": ["src/components/*"],
+      "@styles/*": ["src/styles/*"]
     },
-    "include": ["**/*.js", "**/*.jsx"],
-    "exclude": ["node_modules"]
+    "jsx": "react"
+  },
+  "include": ["**/*.js", "**/*.jsx"],
+  "exclude": ["node_modules"]
 }

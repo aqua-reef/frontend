@@ -1,6 +1,6 @@
 // src/components/shop/ProductCard.jsx
-'use client'
-import { ShoppingBag } from 'lucide-react';
+"use client";
+import { ShoppingBag } from "lucide-react";
 import {
   Carousel,
   CarouselContent,
@@ -51,11 +51,18 @@ export default function ProductCard({ product }) {
 export const images = [
   "https://cdn.britannica.com/29/121829-050-911F77EC/freshwater-aquarium.jpg",
   "https://www.aquaticlivefood.com.au/wp-content/uploads/2023/12/Section-1-Understanding-Aquarium-Plants.webp",
-  "https://www.thesprucepets.com/thmb/wkKH1D8sDSJhnXFvYyN_ROhy4zs=/2127x0/filters:no_upscale():strip_icc()/GettyImages-902469922-5c392b03c9e77c00010eafcb.jpg"
+  "https://www.thesprucepets.com/thmb/wkKH1D8sDSJhnXFvYyN_ROhy4zs=/2127x0/filters:no_upscale():strip_icc()/GettyImages-902469922-5c392b03c9e77c00010eafcb.jpg",
 ];
 
 export const products = [
   // Your products array
 ];
 
-export const categories = ["All", "Fish", "Plants", "Shrimp", "Equipment", "Substrate"];
+export const categories = [
+  "All",
+  "Fish",
+  "Plants",
+  "Shrimp",
+  "Equipment",
+  "Substrate",
+];
